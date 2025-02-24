@@ -4,6 +4,7 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   purge: ['./src/**/*.js', './src/**/*.jsx', './src/**/*.ts', './src/**/*.tsx'],
+  darkMode: 'class', // Enable dark mode using class
   theme: {
     extend: {
       screens: {
@@ -11,6 +12,11 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    extend: {
+      backgroundColor: ['dark'],
+      textColor: ['dark'],
+    },
+  },
   plugins: [],
 };

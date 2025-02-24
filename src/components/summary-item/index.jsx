@@ -2,10 +2,10 @@ import { Link } from 'gatsby';
 import React from 'react';
 
 const classes = {
-  wrapper: 'mb-6',
-  name: 'font-semibold text-gray-900 pb-1',
-  description: 'text-md text-gray-600 font-light',
+  name: 'font-semibold text-gray-200 pb-1',  // ✅ Lighter text
+  description: 'text-md text-gray-400 font-light',
 };
+
 
 const SummaryItem = ({ name, description, link = false, internal = false }) => {
   let linkContent;
