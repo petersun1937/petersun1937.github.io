@@ -116,13 +116,13 @@ Proven ability to build scalable, cross-platform applications and apply analytic
         path: `${__dirname}/src/images`,
       },
     },
-    {
+    /*{
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
       },
-    },
+    },*/
     {
       resolve: `gatsby-transformer-remark`,
       options: {
